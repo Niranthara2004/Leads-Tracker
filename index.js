@@ -1,4 +1,4 @@
-// chrome://e0. 
+
 let myLeads = []
 let oldLeads = []
 const InputEl=document.getElementById("input-el")
@@ -14,9 +14,6 @@ if(leadsFromLocalStorage){
     render(myLeads)
 }
 
-const tabs = [
-    {url:"www.example.com"}
-]
 
 tabBtn.addEventListener("click", function(){
 
